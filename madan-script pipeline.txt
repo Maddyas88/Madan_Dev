@@ -4,12 +4,12 @@ pipeline{
 	stages{
 		stage('checkout'){
 			steps{
-				git url: ""
+				git url: "https://github.com/Maddyas88/Madan_Dev/"
 			     }
 			}
 		stage('madan-compile'){
 			steps{
-				
+				sh "mvn compile"
 			
 			     }	
 			}
