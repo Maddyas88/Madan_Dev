@@ -1,0 +1,19 @@
+pipeline{
+	
+	agent any
+	stages{
+		stage('checkout'){
+			steps{
+				git url: ""
+			     }
+			}
+		stage('madan-compile'){
+			steps{
+				
+			
+			     }	
+			}
+	
+	}
+
+}
